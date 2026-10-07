@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --color-apple-black: #0A0A0A;
+  --color-apple-bg: #F5F5F7;
+  --color-apple-card: #FFFFFF;
+  --color-apple-yellow: #FFD60A;
+  --color-apple-yellow-dark: #FFCC00;
+  --color-apple-text: #1D1D1F;
+  --color-apple-muted: #6E6E73;
+  --color-apple-success: #34C759;
+  --color-apple-danger: #FF3B30;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F5F5F7;
+  color: #1D1D1F;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Apple-style smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Apple-style crisp solid cards - zero transparency */
+.apple-card {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border: 1px solid #E5E5EA;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.apple-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* Solid navigation bar - zero transparency */
+.apple-glass {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E5E5EA;
+}

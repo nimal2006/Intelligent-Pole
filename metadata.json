@@ -1,0 +1,6 @@
+{
+  "name": "Intelligent Pole-Vault Crossbar Analytics",
+  "description": "Multimodal contact detection, localization, and training analytics for intelligent pole-vault crossbar with piezoelectric, strain gauge, and IMU sensor fusion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
